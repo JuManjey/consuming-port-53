@@ -1,4 +1,4 @@
-//consuming port 53 for evilginx2
+//consuming port 53
 sudo systemctl stop systemd-resolved
 nano /etc/systemd/resolved.conf
 DNS = 8.8.8.8
